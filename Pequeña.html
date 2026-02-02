@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Para la mujer que amo 💜</title>
+
+<style>
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+    background:linear-gradient(#cdb4ff,#f8edff);
+}
+.page{
+    display:none;
+    min-height:100vh;
+    padding:40px 25px;
+    text-align:center;
+}
+.page:target{display:block;}
+.page:first-of-type{display:block;}
+h1,h2{color:#5a189a;}
+p{font-size:18px;color:#3c096c;max-width:750px;margin:15px auto;line-height:1.6;}
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:14px 30px;
+    background:#7b2cbf;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+.btn:hover{background:#5a189a;}
+
+/* CORAZÓN */
+.heart{
+    width:90px;height:90px;
+    background:#ff4d6d;
+    transform:rotate(-45deg);
+    margin:40px auto;
+    position:relative;
+    animation:pulse 1.5s infinite;
+}
+.heart:before,.heart:after{
+    content:"";
+    width:90px;height:90px;
+    background:#ff4d6d;
+    border-radius:50%;
+    position:absolute;
+}
+.heart:before{top:-45px;left:0;}
+.heart:after{left:45px;top:0;}
+@keyframes pulse{0%,100%{transform:rotate(-45deg) scale(1);}50%{transform:rotate(-45deg) scale(1.1);}}
+
+/* BARNEY */
+.barney{width:220px;margin:40px auto;}
+.head{width:170px;height:170px;background:#7b2cbf;border-radius:50%;margin:auto;position:relative;}
+.eye{width:20px;height:28px;background:white;border-radius:50%;position:absolute;top:55px;}
+.eye.left{left:45px;} .eye.right{right:45px;}
+.eye:after{content:"";width:10px;height:10px;background:black;border-radius:50%;position:absolute;top:9px;left:5px;}
+.nose{width:34px;height:22px;background:#6a1fb1;border-radius:50%;position:absolute;top:90px;left:68px;}
+.mouth{width:70px;height:35px;border-bottom:4px solid #fff;border-radius:0 0 70px 70px;position:absolute;top:115px;left:50px;}
+.body{width:140px;height:150px;background:#7b2cbf;border-radius:70px;margin:-15px auto 0;position:relative;}
+.belly{width:90px;height:100px;background:#7bed9f;border-radius:50%;position:absolute;top:30px;left:25px;} /* ESTÓMAGO VERDE */
+.arm{width:65px;height:22px;background:#7b2cbf;border-radius:20px;position:absolute;top:40px;}
+.arm.left{left:-50px;} .arm.right{right:-50px;}
+.love-text{font-size:22px;font-weight:bold;color:#6a1fb1;}
+</style>
+</head>
+
+<body>
+
+<section id="inicio" class="page">
+<h1>💜 Para ti, mi amor 💜</h1>
+<p>Desde que llegaste a mi vida, todo cambió de una forma tan bonita que a veces todavía me cuesta creerlo. Esta pequeña página es solo una manera de recordarte lo increíblemente especial que eres para mí.</p>
+<div class="heart"></div>
+<a href="#uno" class="btn">Comenzar ✨</a>
+</section>
+
+<section id="uno" class="page">
+<h2>Lo hermosa que eres 🌸</h2>
+<div class="barney"><div class="head"><div class="eye left"></div><div class="eye right"></div><div class="nose"></div><div class="mouth"></div></div><div class="body"><div class="arm left"></div><div class="arm right"></div><div class="belly"></div></div></div>
+<p>No solo eres hermosa por fuera, eres hermosa en cada gesto, en cada palabra y en cada detalle que te define. Tu sonrisa tiene la capacidad de iluminar mis días y tu mirada siempre logra tranquilizarme de una manera única.</p>
+<a href="#dos" class="btn">Siguiente 💕</a>
+</section>
+
+<section id="dos" class="page">
+<h2>Lo especial que eres 💖</h2>
+<div class="heart"></div>
+<p>Eres especial porque sabes hacer sentir bien a los demás sin siquiera intentarlo. Tienes una forma tan natural de cuidar, de escuchar y de estar presente, que hace que cualquiera se sienta afortunado de tenerte cerca.</p>
+<p>En mi vida, ocupas un lugar que nadie más podría llenar.</p>
+<a href="#tres" class="btn">Continuar 🌷</a>
+</section>
+
+<section id="tres" class="page">
+<h2>Lo perfecta que eres para mí ✨</h2>
+<div class="barney"><div class="head"><div class="eye left"></div><div class="eye right"></div><div class="nose"></div><div class="mouth"></div></div><div class="body"><div class="arm left"></div><div class="arm right"></div><div class="belly"></div></div></div>
+<p>No hablo de una perfección irreal, sino de esa perfección que se siente en el corazón. Con tus virtudes, tus detalles y hasta tus pequeños defectos, eres exactamente la persona que quiero a mi lado.</p>
+<a href="#final" class="btn">Último mensaje 💌</a>
+</section>
+
+<section id="final" class="page">
+<h1>Te amo 💜</h1>
+<div class="heart"></div>
+<p>Te amo por todo lo que eres y por todo lo que despiertas en mí. A tu lado me siento más fuerte, más feliz y más yo. Disfruto cada momento contigo, cada risa compartida, cada conversación y cada silencio.</p>
+<p>Gracias por llegar a mi vida, por quedarte y por hacerme sentir un amor tan bonito y tan sincero. Eres una parte fundamental de mi mundo, y quiero seguir construyendo recuerdos contigo.</p>
+<p class="love-text">Siempre tuyo, con todo mi amor 💕</p>
+</section>
+
+</body>
+</html>
